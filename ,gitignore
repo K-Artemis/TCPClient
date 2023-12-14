@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.cpp
+!*.h
+!*.rc
+!*.txt  # If you have any text files you want to keep
+# Add any other file extensions you want to keep
+
+# ...and not these directories
+!/include/
+!/src/
+!/resources/
+# Add any other directories you want to keep
+
+# Exclude specific directories
+/build/
+/debug/
+/release/
+/obj/
+/bin/
+# Add any other build or output directories
